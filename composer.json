@@ -1,0 +1,12 @@
+{
+  "composer": "pesqueiram/328/application",
+  "authors": [
+    {
+      "name": "Mark Pesqueira",
+      "email": "Pesqueira.mark@student.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
