@@ -10,3 +10,6 @@ tmp/
 
 # ignore composer.lock
 composer.lock
+
+# ignore (deleted) scratch.txt (scratch code for pasting)
+scratch.txt
