@@ -18,13 +18,40 @@ $f3 = Base::instance();
 
 // Define a default route
 $f3->route('GET /', function() {
-    //echo '<h1>Hello World!</h1>';
-
     // Display a view page
     $view = new Template();
     echo $view->render('views/home.html');
 });
 
+// Define a Personal Information route
+$f3->route('GET /personal-info', function() {
+
+    //echo '<h1>Personal Info</h1>';
+
+    // Display a view page
+    $view = new Template();
+    echo $view->render('views/personal-info.html');
+});
+
+// Define an Experience route
+$f3->route('GET /experience', function() {
+
+    //echo '<h1>Experience</h1>';
+
+    // Display a view page
+    $view = new Template();
+    echo $view->render('views/experience.html');
+});
+
+// Define a Mailing Lists route
+$f3->route('GET /mailing-lists', function() {
+
+    //echo '<h1>Mailing Lists</h1>';
+
+    // Display a view page
+    $view = new Template();
+    echo $view->render('views/mailing-lists.html');
+});
+
 // Run Fat-Free
 $f3->run();
-?>
