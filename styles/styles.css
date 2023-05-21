@@ -13,6 +13,7 @@ h1
     float: left;
     width: 50%;
 }
+
 .row
 {
     background-color: whitesmoke;
@@ -38,6 +39,22 @@ div.quotes
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+.content
+{
+    background-color: whitesmoke;
+}
+
+.content-experience
+{
+    background-color: whitesmoke;
+}
+
+.personal-info-title
+{
+    text-align: left;
+}
+
 
 /*
 **** CSS FOR TOPNAV BELOW ****

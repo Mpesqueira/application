@@ -24,7 +24,7 @@ $f3->route('GET /', function() {
 });
 
 // Define a Personal Information route
-$f3->route('GET /personal-info', function() {
+$f3->route('GET /personal', function() {
 
     //echo '<h1>Personal Info</h1>';
 
