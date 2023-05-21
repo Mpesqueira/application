@@ -53,5 +53,15 @@ $f3->route('GET /mailing-lists', function() {
     echo $view->render('views/mailing-lists.html');
 });
 
+// Define a Summary route
+$f3->route('GET /summary', function() {
+
+    //echo '<h1>Mailing Lists</h1>';
+
+    // Display a view page
+    $view = new Template();
+    echo $view->render('views/summary.html');
+});
+
 // Run Fat-Free
 $f3->run();
