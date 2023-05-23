@@ -30,7 +30,7 @@ $f3->route('GET /personal', function() {
 
     // Display a view page
     $view = new Template();
-    echo $view->render('views/personal-info.html');
+    echo $view->render('views/personal-information.html');
 });
 
 // Define an Experience route
