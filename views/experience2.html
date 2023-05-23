@@ -1,7 +1,67 @@
-<include href="views/includes/header.html"></include>
+<include href="views/includes/header.html" xmlns="http://www.w3.org/1999/html"></include>
 <include href="views/includes/topnav.html"></include>
 
 <body>
+<div class="container-fluid">
+    <br>
+    <h6>MarksGamingCompany LLC</h6>
+    <h3>Software Development Internship</h3>
+    <p>Seattle, Washington, Unpaid, 12 months</p>
+
+    <form action="#" method="post" class="">
+        <div class="row" id="title-row">
+            <div class="col-12">
+                <div class="personal-info-title">
+                    <h1>Experience</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="whole-body">
+            <div class="col-8">
+                <label for="biography" class="col-12 control-label"><strong>Biography</strong></label>
+
+                <textarea class="form-control" placeholder="Lorem ipsum text here..."
+                          type="text" name="bio" id="biography" value=""></textarea>
+            </div>
+
+            <div class="col-4">
+                <label for="github-link" class="col-12 control-label"><strong>Github Link</strong></label>
+
+                <input class="form-control" placeholder="github.com/my_github"
+                       type="text" name="github" id="github-link" value="">
+
+                <div class="form-group">
+                    <p><strong>Years Experience</strong></p>
+                    <input type="radio" id="0-2" name="years-exp" value="0-2">
+                    <label for="0-2">0-2</label>
+                    <input type="radio" id="2-4" name="years-exp" value="2-4">
+                    <label for="2-4">2-4</label>
+                    <input type="radio" id="4+" name="years-exp" value="4+">
+                    <label for="4+">4+</label>
+                </div>
+
+                <div class="form-group">
+                    <p><strong>Willing To Relocate</strong></p>
+                    <input type="radio" id="yes" name="relocate" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="relocate" value="no">
+                    <label for="no">No</label>
+                    <input type="radio" id="maybe" name="relocate" value="maybe">
+                    <label for="maybe">Maybe</label>
+                </div>
+
+                <div class="next-button">
+                    <a href="mailing-lists" role="button"
+                       class="btn btn-primary" id="next-button">Next ></a>
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+</div>
 
 </body>
 </html>

@@ -30,7 +30,7 @@ $f3->route('GET /personal', function() {
 
     // Display a view page
     $view = new Template();
-    echo $view->render('views/personal-information.html');
+    echo $view->render('views/personal-info.html');
 });
 
 // Define an Experience route
@@ -50,7 +50,7 @@ $f3->route('GET /mailing-lists', function() {
 
     // Display a view page
     $view = new Template();
-    echo $view->render('views/mailing-lists.html');
+    echo $view->render('views/mailing-lists-2.html');
 });
 
 // Define a Summary route
