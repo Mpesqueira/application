@@ -24,9 +24,20 @@ $f3->route('GET /', function() {
 });
 
 // Define a Personal Information route
-$f3->route('GET /personal', function() {
+$f3->route('GET|POST /personal', function($f3) {
 
-    //echo '<h1>Personal Info</h1>';
+    // If the form has been posted
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
+
+        // Get the data
+
+        // Validate the data
+
+        // Store the data in the session
+
+        // Redirect to Experience route
+        $f3->reroute('experience');
+    }
 
     // Display a view page
     $view = new Template();
@@ -34,9 +45,20 @@ $f3->route('GET /personal', function() {
 });
 
 // Define an Experience route
-$f3->route('GET /experience', function() {
+$f3->route('GET|POST /experience', function($f3) {
 
-    //echo '<h1>Experience</h1>';
+    // If the form has been posted
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
+
+        // Get the data
+
+        // Validate the data
+
+        // Store the data in the session
+
+        // Redirect to Mailing Lists route
+        $f3->reroute('mailing-lists');
+    }
 
     // Display a view page
     $view = new Template();
@@ -44,9 +66,20 @@ $f3->route('GET /experience', function() {
 });
 
 // Define a Mailing Lists route
-$f3->route('GET /mailing-lists', function() {
+$f3->route('GET|POST /mailing-lists', function($f3) {
 
-    //echo '<h1>Mailing Lists</h1>';
+    // If the form has been posted
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
+
+        // Get the data
+
+        // Validate the data
+
+        // Store the data in the session
+
+        // Redirect to Summary route
+        $f3->reroute('summary');
+    }
 
     // Display a view page
     $view = new Template();
