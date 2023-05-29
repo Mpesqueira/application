@@ -1,10 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Summary Page</title>
-</head>
+<include href="views/includes/header.html"></include>
+<include href="views/includes/topnav.html"></include>
+
+
 <body>
-  <h1>SUMMARIES</h1>
+<div class="container-fluid">
+    <br>
+    <h6>MarksGamingCompany LLC</h6>
+    <h3>Software Development Internship</h3>
+    <p>Seattle, Washington, Unpaid, 12 months</p>
+
+    <form action="#" method="post" class="">
+        <div class="row" id="whole-body">
+            <div class="col-6">
+                <hr>
+                <p>Name: {{ @SESSION.fname }} {{ @SESSION.lname }}</p>
+                <hr>
+                <p>Email: {{ @SESSION.email }}</p>
+                <hr>
+                <p>State: {{ @SESSION.state }}</p>
+                <hr>
+                <p>Phone: {{ @SESSION.phone }}</p>
+                <hr>
+                <p>Github Link: {{ @SESSION.github }}</p>
+                <hr>
+                <p>Experience: {{ @SESSION.experience }}</p>
+                <hr>
+                <p>Willing To Relocate: {{ @SESSION.relocate }}</p>
+                <hr>
+                <p>Mailing Lists: {{ @SESSION.jobs }} {{ @SESSION.verts }}</p>
+                <hr>
+            </div>
+
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="images/icon-person-green.png" alt="Green silhouette of person">
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <div class="row">
+                    <div class="col-12">
+                        <h3>Summary</h3>
+                        <p>{{ @SESSION.bio }}</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row" id="bottom-button-row">
+                <div class="submit-button">
+                    <button class="btn btn-primary w-100" type="submit"> Submit My Application!</button>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>
+
 </body>
 </html>

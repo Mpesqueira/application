@@ -1,6 +1,8 @@
 <include href="views/includes/header.html"></include>
 <include href="views/includes/topnav.html"></include>
 
+
+
 <body>
 <div class="container-fluid">
     <br>
@@ -19,96 +21,102 @@
             </div>
         </div>
 
-        <div class="row" id="jobs-top-row">
-            <div class="col-12">
-                <p><strong>Software Development Jobs</strong></p>
+        <div class="form-group">
+
+
+            <div class="row" id="jobs-top-row">
+                <div class="col-12">
+                    <p><strong>Software Development Jobs</strong></p>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox"
+                           id="job1"
+                           name="jobs[]"
+                           value="JavaScript">
+                    <label for="job1">JavaScript</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="job2" name="jobs[]" value="PHP">
+                    <label for="job2">PHP</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="job3" name="jobs[]" value="Java">
+                    <label for="job3">Java</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="job4" name="jobs[]" value="Python">
+                    <label for="job4">Python</label>
+                </div>
             </div>
 
-            <div class="col-3">
-                <input type="checkbox" id="job1" name="job1" value="Job">
-                <label for="job1">JavaScript</label>
+            <div class="row" id="jobs-bottom-row">
+                <div class="col-3">
+                    <input type="checkbox" id="job5" name="jobs[]" value="HTML">
+                    <label for="job5">HTML</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="job6" name="jobs[]" value="CSS">
+                    <label for="job6">CSS</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="job7" name="jobs[]" value="ReactJS">
+                    <label for="job7">ReactJS</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="job8" name="jobs[]" value="NodeJs">
+                    <label for="job8">NodeJs</label>
+                </div>
             </div>
 
-            <div class="col-3">
-                <input type="checkbox" id="job2" name="job2" value="Job">
-                <label for="job2">PHP</label>
+            <div class="row" id="industry-verticals-top-row">
+                <div class="col-12">
+                    <p><strong>Industry Verticals</strong></p>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="vert1" name="verts[]" value="SaaS">
+                    <label for="vert1">SaaS</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="vert2" name="verts[]" value="Health tech">
+                    <label for="vert2">Health tech</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="vert3" name="verts[]" value="Ag tech">
+                    <label for="vert3">Ag tech</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="vert4" name="verts[]" value="HR tech">
+                    <label for="vert4">HR tech</label>
+                </div>
             </div>
 
-            <div class="col-3">
-                <input type="checkbox" id="job3" name="job3" value="Job">
-                <label for="job3">Java</label>
+            <div class="row" id="industry-verticals-bottom-row">
+                <div class="col-3">
+                    <input type="checkbox" id="vert5" name="verts[]" value="Industrial tech">
+                    <label for="vert5">Industrial tech</label>
+                </div>
+
+                <div class="col-3">
+                    <input type="checkbox" id="vert6" name="verts[]" value="Cybersecurity">
+                    <label for="vert6">Cybersecurity</label>
+                </div>
             </div>
 
-            <div class="col-3">
-                <input type="checkbox" id="job4" name="job4" value="Job">
-                <label for="job4">Python</label>
-            </div>
-        </div>
-
-        <div class="row" id="jobs-bottom-row">
-            <div class="col-3">
-                <input type="checkbox" id="job5" name="job5" value="Job">
-                <label for="job5">HTML</label>
-            </div>
-
-            <div class="col-3">
-                <input type="checkbox" id="job6" name="job6" value="Job">
-                <label for="job6">CSS</label>
-            </div>
-
-            <div class="col-3">
-                <input type="checkbox" id="job7" name="job7" value="Job">
-                <label for="job7">ReactJS</label>
-            </div>
-
-            <div class="col-3">
-                <input type="checkbox" id="job8" name="job8" value="Job">
-                <label for="job8">NodeJs</label>
-            </div>
-        </div>
-
-        <div class="row" id="industry-verticals-top-row">
-            <div class="col-12">
-                <p><strong>Industry Verticals</strong></p>
-            </div>
-
-            <div class="col-3">
-                <input type="checkbox" id="vert1" name="vert1" value="Verticals">
-                <label for="vert1">SaaS</label>
-            </div>
-
-            <div class="col-3">
-                <input type="checkbox" id="vert2" name="vert2" value="Verticals">
-                <label for="vert2">Health tech</label>
-            </div>
-
-            <div class="col-3">
-                <input type="checkbox" id="vert3" name="vert3" value="Verticals">
-                <label for="vert3">Ag tech</label>
-            </div>
-
-            <div class="col-3">
-                <input type="checkbox" id="vert4" name="vert4" value="Verticals">
-                <label for="vert4">HR tech</label>
-            </div>
-        </div>
-
-        <div class="row" id="industry-verticals-bottom-row">
-            <div class="col-3">
-                <input type="checkbox" id="vert5" name="vert5" value="Verticals">
-                <label for="vert5">Industrial tech</label>
-            </div>
-
-            <div class="col-3">
-                <input type="checkbox" id="vert6" name="vert6" value="Verticals">
-                <label for="vert6">Cybersecurity</label>
-            </div>
-        </div>
-
-        <div class="row" id="bottom-button-row">
-            <div class="next-button">
-                <a href="summary" role="button"
-                   class="btn btn-primary" id="next-button">Next ></a>
+            <div class="row" id="bottom-button-row">
+                <div class="next-button">
+                    <button class="btn btn-primary w-100" type="submit"> Next ></button>
+                </div>
             </div>
         </div>
 
